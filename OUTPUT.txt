@@ -1,0 +1,156 @@
+EXECUTION TRAIL
+______GRAPH TRAVERSALS______
+0.EXIT
+1.EXECUTE USING ADJACENCY MATRIX
+2.EXECUTE USING ADJACENCY LIST
+Enter operation to perform:1
+
+______EXECUTION USING ADJACENCY MATRIX________
+0.EXIT
+1.PRINT ADJACENCY MATRIX
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:1
+
+Enter type of graph:
+1.DIRECTED
+2.UN-DIRECTED
+
+Enter your choice:1
+
+Enter no of vertices:(<=8)3
+
+Enter edges as(u,v) & -1 to terminate:
+		EDGE  |  ADJACENT EDGE
+	   --------------------------------
+		  0			1
+		  0			2	
+		  1			2
+		  1			0
+		  2			1
+		  -1    	-1
+
+ADJACENCY MATRIX :
+
+ u|v | 0  1  2 
+---------------
+  0  | 0  1  1  
+  1  | 1  0  1  
+  2  | 0  1  0  
+
+______EXECUTION USING ADJACENCY MATRIX________
+0.EXIT
+1.PRINT ADJACENCY MATRIX
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:2
+
+AVAILABLE EDGES:
+0 U
+1 Z
+2 Q
+Enter source vertex(0-2):0
+
+DEPTH FIRST SEARCH TRAVERSAL:U Z Q 
+______EXECUTION USING ADJACENCY MATRIX________
+0.EXIT
+1.PRINT ADJACENCY MATRIX
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:3
+
+AVAILABLE EDGES:
+0 U
+1 Z
+2 Q
+Enter source vertex(0-2):2
+
+BREADTH FIRST SEARCH TRAVERSAL:Q Z U 
+______EXECUTION USING ADJACENCY MATRIX________
+0.EXIT
+1.PRINT ADJACENCY MATRIX
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:0
+
+You have opted to exit
+
+______GRAPH TRAVERSALS______
+0.EXIT
+1.EXECUTE USING ADJACENCY MATRIX
+2.EXECUTE USING ADJACENCY LIST
+Enter operation to perform:2
+
+________EXECUTION USING ADJACENCY LIST_______
+0.EXIT
+1.PRINT ADJACENCY LIST
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:1
+
+Enter type of graph:
+1.DIRECTED
+2.UN-DIRECTED
+
+Enter your choice:2
+
+Enter no of vertices:(<=8)3
+Enter edges as(u,v) & -1 to terminate:0 1
+Enter edges as(u,v) & -1 to terminate:2 2
+Enter edges as(u,v) & -1 to terminate:2 0
+Enter edges as(u,v) & -1 to terminate:1 1
+Enter edges as(u,v) & -1 to terminate:1 2
+Enter edges as(u,v) & -1 to terminate:-1 -1
+
+ADJACENCY LIST:
+
+EDGE|
+-----------------
+  0 -> 1 -> 2 
+  1 -> 0 -> 1 -> 2 
+  2 -> 0 -> 1 -> 2 
+________EXECUTION USING ADJACENCY LIST_______
+0.EXIT
+1.PRINT ADJACENCY LIST
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:2
+
+AVAILABLE EDGES:
+0 U
+1 Z
+2 Q
+Enter source vertex(0-2):0
+
+DEPTH FIRST SEARCH TRAVERSAL:U Z Q 
+________EXECUTION USING ADJACENCY LIST_______
+0.EXIT
+1.PRINT ADJACENCY LIST
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:3
+
+AVAILABLE EDGES:
+0 U
+1 Z
+2 Q
+Enter source vertex(0-2):1
+
+BREADTH FIRST SEARCH TRAVERSAL:Z U Q 
+________EXECUTION USING ADJACENCY LIST_______
+0.EXIT
+1.PRINT ADJACENCY LIST
+2.EXECUTE DFS
+3.EXECUTE BFS
+Enter operation to perform:0
+
+You have opted to exit
+
+______GRAPH TRAVERSALS______
+0.EXIT
+1.EXECUTE USING ADJACENCY MATRIX
+2.EXECUTE USING ADJACENCY LIST
+Enter operation to perform:0
+
+You have opted to exit
+
